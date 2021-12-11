@@ -11,7 +11,7 @@
     
 
 ### DATABASE: SQL/NOSQL (Shimul)
-   	    * SQL-> ** **SQLITE** / MYSQL
+   	    * SQL-> **SQLITE** / MYSQL
    	    * NOSQL -> MONGODB / COUCHBASE
    	   
 ### UI/UX: HTML5, JS, CSS (Tasnuva+Zubair)
