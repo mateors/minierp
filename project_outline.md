@@ -17,7 +17,7 @@
 ### UI/UX: HTML5, JS, CSS (Tasnuva+Zubair)
        * FRAMEWORK: BOOTSTRAP / MATERIAL.IO
  
-#### Advice todos everyday
+#### Advice (Things to do every day)
 * READ EMAIL EVERYDAY (IF POSSIBLE IN EVERY 2 HOURS)
-* push on github every day.
-* Follow experts in your domain.
+* Push to github every day.
+* Follow the experts in your domain.
