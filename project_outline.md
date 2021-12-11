@@ -4,7 +4,7 @@
 
 ### PROGRAMMING LANGUAGE: GOLANG
 
-### BACKEND: ( [Mahmud](https://github.com/Mahmud139) & Abu Raihan)
+### BACKEND: ( [Mahmud](https://github.com/Mahmud139) & [Abu Raihan](https://github.com/raihaninfo))
     * REST API
     * CRUD FUNC
     * SMS GENERATE* -> HARDWARE COMMUNICATION / SERIAL PORT PROGRAMMING
