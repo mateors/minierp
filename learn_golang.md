@@ -1,6 +1,6 @@
-# Learn Golang in bangla
+# Learn Go programming language in Bengali
 
-- ## Golang Basic To Advance
+- ## Golang Basic to Advance
 
   - [কোডিং বুট ক্যাম্প ক্লাস](https://youtube.com/playlist?list=PLZij6bgEHkTXRakAtponkmP2CmlTTKlxl) -> MASTER-ACADEMY
 
@@ -13,4 +13,4 @@
 - ## [Fyne](https://fyne.io/)
   - MASTER-ACADEMT Project Based Learning (This course is running)
 
-> If you have any questions, please join our [CodingBootCamp](https://www.facebook.com/groups/codingbootcampbd) community [group](https://www.facebook.com/groups/codingbootcampbd)
+> ### If you have any questions, please join our [CodingBootCamp](https://www.facebook.com/groups/codingbootcampbd) community [group](https://www.facebook.com/groups/codingbootcampbd)
