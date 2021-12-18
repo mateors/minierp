@@ -14,3 +14,10 @@
   - MASTER-ACADEMT Project Based Learning (This course is running)
 
 > ### If you have any questions, please join our [CodingBootCamp](https://www.facebook.com/groups/codingbootcampbd) community [group](https://www.facebook.com/groups/codingbootcampbd)
+
+<br/>
+
+<!-- MARKDOWN Github and twitter budge-->
+
+![Twitter Follow](https://img.shields.io/twitter/follow/masteracademy4?style=social)
+![GitHub User's stars](https://img.shields.io/github/stars/mateors?style=social)
