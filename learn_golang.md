@@ -19,5 +19,7 @@
 
 <!-- MARKDOWN Github and twitter budge-->
 
+<!-- twitter and github badge -->
+
 ![Twitter Follow](https://img.shields.io/twitter/follow/masteracademy4?style=social)
 ![GitHub User's stars](https://img.shields.io/github/stars/mateors?style=social)
