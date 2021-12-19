@@ -31,3 +31,19 @@ pacman -S --needed base-devel mingw-w64-x85_64-toolchain
 ![image](images/7.jpg)
 
 ### * now your `GCC` ready for play with `FYNE`.
+* Step 7 - For Fyne Download
+```bash
+go get fyne.io/fyne/v2
+```
+* Step 8 - To finish your module’s set up, you now need to tidy the module file to correctly reference Fyne as a dependency. You do this by using the following command (can be skipped if you are not using modules): 
+
+```bash
+go mod tidy
+```
+
+### Run the demo
+If you want to see the Fyne toolkit in action before you start to code your own application, you can see our demo app running on your computer by executing:
+
+```bash
+go run fyne.io/fyne/v2/cmd/fyne_demo
+```
