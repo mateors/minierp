@@ -50,3 +50,16 @@
  order_discount
  order_total
  status
+ 
+ 
+ ```
+ CREATE TABLE "client" (
+	"id"	INTEGER NOT NULL,
+	"name"	TEXT NOT NULL,
+	"mobile"	TEXT,
+	"email"	TEXT,
+	"address"	TEXT,
+	"status"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+```
