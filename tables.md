@@ -70,4 +70,17 @@ CREATE TABLE "item_group" (
 	"status"	INTEGER NOT NULL DEFAULT 1,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+CREATE TABLE "item" (
+	"id"	INTEGER NOT NULL,
+	"item_name"	TEXT NOT NULL UNIQUE,
+	"item_group_id"	INTEGER NOT NULL,
+	"price"	NUMERIC NOT NULL DEFAULT 0.00,
+	"warranty"	INTEGER NOT NULL DEFAULT 0,
+	"warranty_period"	INTEGER,
+	"stock"	INTEGER NOT NULL DEFAULT 0,
+	"status"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("id"),
+	FOREIGN KEY("item_group_id") REFERENCES "item_group"("id")
+);
 ```
