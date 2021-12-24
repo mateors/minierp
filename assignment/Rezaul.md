@@ -37,6 +37,10 @@ go get fyne.io/fyne/v2
 ```
 * Step 8 - To finish your module’s set up, you now need to tidy the module file to correctly reference Fyne as a dependency. You do this by using the following command (can be skipped if you are not using modules): 
 
+
+
+
+
 ```bash
 go mod tidy
 ```
@@ -47,3 +51,56 @@ If you want to see the Fyne toolkit in action before you start to code your own 
 ```bash
 go run fyne.io/fyne/v2/cmd/fyne_demo
 ```
+
+# Requirment 
+==================
+
+order status: pending
+order status: in process/working
+order status: ready with fix
+order status: ready without fix
+order status: delivered
+
+---------------------------------------------------------------------
+new client
+=======================
+Name: Rahim
+Mobile:
+Email*
+Address:
+Problem Details: 
+========================
+
+Delivery date: 1 days, 2 days 3 days, 4 days
+Warranty: 6 months
+
+---------------------------------------------------------------------
+sms ==> Name*ProblemDetails
+sms ==> 12121212
+
+Dear Rahim
+Your order no is: 12121212
+Your expected delivery date is: 30 november 2021
+
+-------------------
+update: ready
+Dear Rahim
+Your order no is: 12121212
+Your item/device is ready for delivery please collect from our store.
+-------------------
+
+update: delivered
+
+Dear Rahim
+Your order no is: 12121212 order status: delivered.
+Warranty upto: 23 May 2022
+---------------------------------------------------------------------
+
+
+sms software -> incoming+outgoing
+android sms so
+topup software
+hosting software+domain
+email sender
+
+
