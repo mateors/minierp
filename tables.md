@@ -62,4 +62,12 @@
 	"status"	INTEGER NOT NULL DEFAULT 1,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+CREATE TABLE "item_group" (
+	"id"	INTEGER NOT NULL,
+	"group_name"	TEXT NOT NULL UNIQUE,
+	"description"	TEXT,
+	"status"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
 ```
