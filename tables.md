@@ -1,4 +1,6 @@
- 
+ ## Mysql Keywords
+ * https://dev.mysql.com/doc/refman/8.0/en/keywords.html
+
  1640041730
  
  2,147,483,647
