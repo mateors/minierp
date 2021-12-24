@@ -1,5 +1,6 @@
  ## Mysql Keywords
  * https://dev.mysql.com/doc/refman/8.0/en/keywords.html
+ * https://sqlitebrowser.org/
 
  1640041730
  
