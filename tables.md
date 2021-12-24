@@ -83,4 +83,21 @@ CREATE TABLE "item" (
 	PRIMARY KEY("id"),
 	FOREIGN KEY("item_group_id") REFERENCES "item_group"("id")
 );
+
+CREATE TABLE "invoice" (
+	"id"	INTEGER NOT NULL,
+	"invoice_number"	TEXT NOT NULL,
+	"invoice_date"	TEXT,
+	"delivery_date"	TEXT,
+	"item_id"	INTEGER NOT NULL,
+	"quantity"	INTEGER NOT NULL DEFAULT 1,
+	"price"	NUMERIC NOT NULL DEFAULT 0.00,
+	"client_id"	INTEGER NOT NULL,
+	"invoice_discount"	NUMERIC,
+	"invoice_total"	NUMERIC NOT NULL DEFAULT 0,
+	"status"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("id" AUTOINCREMENT),
+	FOREIGN KEY("item_id") REFERENCES "item"("id"),
+	FOREIGN KEY("client_id") REFERENCES "client"("id")
+);
 ```
