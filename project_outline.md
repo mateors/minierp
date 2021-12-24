@@ -16,6 +16,7 @@
    	   
 ### UI/UX: HTML5, JS, CSS ( [Tasnuva](https://github.com/tasnuvatina) & Zubair)
        * FRAMEWORK: BOOTSTRAP / MATERIAL.IO
+       * FYNE.IO FOR DESKTOP gui
  
 #### Advice (Things to do every day)
 * READ EMAIL EVERYDAY (IF POSSIBLE IN EVERY 2 HOURS)
