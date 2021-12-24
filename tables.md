@@ -102,4 +102,16 @@ CREATE TABLE "invoice" (
 	FOREIGN KEY("item_id") REFERENCES "item"("id"),
 	FOREIGN KEY("client_id") REFERENCES "client"("id")
 );
+
+CREATE TABLE "company" (
+	"id"	INTEGER NOT NULL,
+	"company_name"	TEXT NOT NULL,
+	"address"	TEXT,
+	"website"	INTEGER,
+	"email"	TEXT,
+	"mobile"	TEXT,
+	"logo"	TEXT,
+	"status"	INTEGER NOT NULL DEFAULT 1,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
 ```
