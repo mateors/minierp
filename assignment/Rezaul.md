@@ -55,6 +55,8 @@ go run fyne.io/fyne/v2/cmd/fyne_demo
 # Requirment 
 ==================
 
+![image](https://github.com/irezaul/minierp-1/blob/main/assignment/images/Screenshot%20from%202021-12-24%2020-33-42.png?raw=true)
+
 order status: pending
 order status: in process/working
 order status: ready with fix
