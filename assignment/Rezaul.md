@@ -183,7 +183,8 @@ CREATE TABLE "company" (
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
 ```
-
+### Check all Table -
+![datatable](images/database.jpg)
 
 
 
