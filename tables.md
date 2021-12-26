@@ -138,7 +138,7 @@ CREATE TABLE "company" (
 	"id"	INTEGER NOT NULL,
 	"company_name"	TEXT NOT NULL,
 	"address"	TEXT,
-	"website"	INTEGER,
+	"website"	TEXT,
 	"email"	TEXT,
 	"mobile"	TEXT,
 	"logo"	TEXT,
