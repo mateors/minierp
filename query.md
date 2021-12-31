@@ -26,6 +26,11 @@ INSERT INTO client(name,mobile,email,address) VALUES("Eshita", "01600000000","es
 
 SELECT  invoice.*,client.name, item.item_name FROM invoice,client,item WHERE invoice.client_id=client.id AND invoice.item_id=item.id;
 
+```
+SELECT  invoice.*,client.name, item.item_name, item.price, item_group.group_name 
+FROM invoice,client,item,item_group 
+WHERE invoice.client_id=client.id AND invoice.item_id=item.id AND item.item_group_id=item_group.id;
+```
 
 -----------------------------------------------
 programming -> golang
