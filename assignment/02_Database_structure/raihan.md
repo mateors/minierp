@@ -1,5 +1,7 @@
 
 
+![datatable](images/sqlite/image1_raihan.png)
+
 ```
  CREATE TABLE "client" (
 	"id"	INTEGER NOT NULL,
