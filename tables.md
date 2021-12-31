@@ -89,7 +89,7 @@
  CREATE TABLE "client" (
 	"id"	INTEGER NOT NULL,
 	"name"	TEXT NOT NULL,
-	"mobile"	TEXT,
+	"mobile"	TEXT UNIQUE,
 	"email"	TEXT,
 	"address"	TEXT,
 	"status"	INTEGER NOT NULL DEFAULT 1,
