@@ -3,7 +3,7 @@
 
 ![datatable](images/sqlite/image1_raihan.png)
 
-```
+```json
  CREATE TABLE "client" (
 	"id"	INTEGER NOT NULL,
 	"name"	TEXT NOT NULL,
