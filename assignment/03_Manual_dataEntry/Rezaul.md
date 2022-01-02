@@ -56,3 +56,19 @@ SELECT * FROM client;
 ```sql
 SELECT * FROM tableName;
 ```
+
+### how to get data from a join table
+
+```sql
+SELECT * FROM invoice i,client c WHERE i.client_id=c.id;
+
+SELECT * FROM invoice,client WHERE invoice.client_id=client.id;
+
+SELECT invoice.*,client.name FROM invoice,client WHERE invoice.client_id=client.id;
+```
+
+![client](./images/data_fetch.jpg)
+
+![client](./images/data_fetch2.jpg)
+
+![client](./images/data_fetch3.jpg)
