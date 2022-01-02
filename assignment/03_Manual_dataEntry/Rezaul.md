@@ -65,6 +65,8 @@ SELECT * FROM invoice i,client c WHERE i.client_id=c.id;
 SELECT * FROM invoice,client WHERE invoice.client_id=client.id;
 
 SELECT invoice.*,client.name FROM invoice,client WHERE invoice.client_id=client.id;
+
+SELECT invoice.*,client.name, item.item_name FROM invoice,client,item WHERE invoice.client_id=client.id AND invoice.item_id=item_id;
 ```
 
 ![client](./images/data_fetch.jpg)
@@ -72,3 +74,5 @@ SELECT invoice.*,client.name FROM invoice,client WHERE invoice.client_id=client.
 ![client](./images/data_fetch2.jpg)
 
 ![client](./images/data_fetch3.jpg)
+
+![client](./images/data_fetch4.jpg)
