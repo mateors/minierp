@@ -1,26 +1,30 @@
----------------------------------------------------------------------
-* client
-=======================
-Name: Rahim
-Mobile:
-Email*
-Address:
-Problem Details: 
-=======================
-* ITEM DETAILS -
+
+### client
+
+- Name: Rahim
+- Mobile: Samsung A50
+- Email : sqlite@mail.com
+- Address: Dhaka
+- Problem Details: Software Probelm 
+
+
+### ITEM DETAILS -
 
 Delivery date: 1 days, 2 days 3 days, 4 days
 Warranty: 6 months
 
 ---------------------------------------------------------------------
-* SMS -
+### SMS -
 
-sms ==> Name*ProblemDetails
-sms ==> 12121212
+- sms - Send to with details `(Name*ProblemDetails)`
+
+or
+- sms text with invoice number 12121212
+```text
 Dear Rahim
 Your order no is: 12121212
 Your expected delivery date is: 30 november 2021
-
+```
 --------------------------------------------------------------------
 * REPORT -
 
