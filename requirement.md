@@ -5,18 +5,19 @@
 - Mobile: Samsung A50
 - Email : sqlite@mail.com
 - Address: Dhaka
-- Problem Details: Software Probelm 
+- Problem Details: Software Problem 
 
 
 ### ITEM DETAILS -
-
-Delivery date: 1 days, 2 days 3 days, 4 days
-Warranty: 6 months
+- Item Description -
+- Delivery date: 1 days, 2 days 3 days, 4 days
+- Warranty: 6 months
+- stock : 
 
 ---------------------------------------------------------------------
 ### SMS -
 
-- sms - Send to with details `(Name*ProblemDetails)`
+- sms - Send with details `(Name*ProblemDetails)`
 
 or
 - sms text with invoice number 12121212
@@ -26,33 +27,39 @@ Your order no is: 12121212
 Your expected delivery date is: 30 november 2021
 ```
 --------------------------------------------------------------------
-* REPORT -
+## REPORT -
 
+```sms
 update: ready
 Dear Rahim
 Your order no is: 12121212
 Your item/device is ready for delivery please collect from our store.
-
+```
 ---------------------------------------------------------------------
-
+### Received SMS 
+```sms
 update: delivered
-
 Dear Rahim
 Your order no is: 12121212 order status: delivered.
 Warranty upto: 23 May 2022
+```
 ---------------------------------------------------------------------
 
-==================================================
-
+### Oder Status
+```
 order status: pending
 order status: in process/working
 order status: ready with fix
 order status: ready without fix
 order status: delivered
-
+```
 ==================================================
-sms software -> incoming+outgoing
-android sms so
-topup software
-hosting software+domain
-email sender
+
+
+## Our Other Service
+
+- sms software -> incoming+outgoing
+- android sms so
+- topup software
+- hosting software+domain
+- email sender
