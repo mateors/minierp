@@ -19,3 +19,17 @@
 
 ![invoice](images/invoice7.png)
 ![invoice](images/invoice8.png)
+
+### Query our data from client table and invoice table
+
+![client_table](images/client_data9.png)
+![invoice_table](images/invoice_data10.png)
+
+### Get client_id,client_name,item_name from joint table
+
+
+![client_id](images/client_id12.png)
+![client_name](images/client_name11.png)
+![joint_table](images/join_table.png)
+
+
