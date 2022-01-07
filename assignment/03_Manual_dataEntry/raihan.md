@@ -1,3 +1,5 @@
+# Manual Data Entry to sqlite
+
 ## Insert Data
 
 ```sql
