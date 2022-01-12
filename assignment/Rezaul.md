@@ -24,7 +24,7 @@ pacman -Su
 ![image](images/4.jpg)
 ### step 6 - next command use this ...
 ```bash
-pacman -S --needed base-devel mingw-w64-x85_64-toolchain
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 ```
 ![image](images/5.jpg)
 
