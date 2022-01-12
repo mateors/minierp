@@ -36,6 +36,7 @@ pacman -S --needed base-devel mingw-w64-x85_64-toolchain
 ```bash
 pacman -S mingw-w64-x86_64-toolchain
 ```
+![toolchain_error_fixed](images/toolchain_error_fixed.png)
 ### `importent` :=  Add `C:\msys64\mingw64\bin` to `PATH` in `User Variables` and in `System Variables`
 ![image](images/7.jpg)
 
