@@ -24,9 +24,19 @@ pacman -Su
 ![image](images/4.jpg)
 ### step 6 - next command use this ...
 ```bash
-pacman -S --needed base-devel mingw-w64-x85_64-toolchain
+pacman -S --needed base-devel mingw-w64-x86_64-toolchain
 ```
 ![image](images/5.jpg)
+
+### if show error this then produce next command
+![toolchain_error](images/toolchain_error.png)
+
+### If you want MSYS2's MinGW-w64 x86_64 GCC then you should install the `mingw-w64-x86_64-toolchain` package group via:
+
+```bash
+pacman -S mingw-w64-x86_64-toolchain
+```
+![toolchain_error_fixed](images/toolchain_error_fixed.png)
 ### `importent` :=  Add `C:\msys64\mingw64\bin` to `PATH` in `User Variables` and in `System Variables`
 ![image](images/7.jpg)
 
