@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"strings"
 
 	"fyne.io/fyne/v2"
 	"fyne.io/fyne/v2/app"
@@ -35,10 +36,15 @@ func main() {
 
 	wform := widget.NewForm(row1, row2, row3, row4)
 	wform.SubmitText = "Save"
+
 	wform.OnSubmit = func() {
-		name := name.Text
-		message := address.Text
-		myData := fmt.Sprintf(`%v = %v`, name, message)
+
+		name := strings.ToUpper(name.Text)
+		phone := mobile.Text
+		emailID := strings.ToLower(email.Text)
+		address := address.Text
+
+		myData := fmt.Sprintf(`%s %v %s %s`, name, phone, emailID, address)
 		dialog.NewInformation("Confirmation", myData, myWindow).Show()
 
 	}
