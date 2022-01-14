@@ -9,7 +9,7 @@ import (
 )
 
 var myApp fyne.App = app.New()
-var myWindow fyne.Window = myApp.NewWindow("Hello")
+var myWindow fyne.Window = myApp.NewWindow("Mini ERP")
 
 func main() {
 
