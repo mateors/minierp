@@ -68,7 +68,13 @@ func main() {
 		emailID := strings.ToLower(email.Text)
 		address := address.Text
 
-		myData := fmt.Sprintf(`%s %v %s %s`, name, phone, emailID, address)
+		//myData := fmt.Sprintf(`%s %v %s %s`, name, phone, emailID, address)
+		id, err := addClient(name, phone, emailID, address)
+		if err != nil {
+			log.Println(err)
+			return
+		}
+		myData := fmt.Sprintf(`Client added New client ID # %d`, id)
 		dialog.NewInformation("Confirmation", myData, myWindow).Show()
 
 	}
