@@ -4,7 +4,6 @@ import (
 	"database/sql"
 	"fmt"
 	"log"
-	"os"
 	"strings"
 
 	_ "github.com/mattn/go-sqlite3"
@@ -25,17 +24,18 @@ func init() {
 	if err != nil {
 		log.Fatal(err)
 	}
+
 	db.SetMaxOpenConns(1)
-	defer db.Close()
 	log.Println("db connection successful")
 
 }
 
 func main() {
 
-	//addClient("RAIHAN", "01672710028", "raihan@gmail.com", "House# 01, Road# 02")
-	os.Exit(1)
+	// addClient("RAIHAN", "01672710028", "raihan@gmail.com", "House# 01, Road# 02")
+	// os.Exit(1)
 
+	defer db.Close()
 	myApp := app.New()
 	myWindow := myApp.NewWindow("My Form")
 
