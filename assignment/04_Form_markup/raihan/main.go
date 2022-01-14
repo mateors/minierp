@@ -29,7 +29,7 @@ func main() {
 		appEmail := "admin@abc.com"
 		appPass := "12345678"
 		if emailEntry.Text == appEmail && passwordEntry.Text == appPass {
-			// ShowAnother(myApp)
+			ShowDashbord(myApp)
 		} else {
 			dialog.NewInformation("Invalid", "Email or Passwor invalid", myWindow).Show()
 		}
