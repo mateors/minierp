@@ -22,7 +22,7 @@ var err error
 func init() {
 
 	// Connect to database
-	db, err = sql.Open("sqlite3", "/home/ireza/go/src/erpgui/crud.db")
+	db, err = sql.Open("sqlite3", "./crud.db")
 	if err != nil {
 		log.Fatal(err)
 	}
