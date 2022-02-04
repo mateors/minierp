@@ -27,3 +27,7 @@ LEFT JOIN item ON invoice.item_id=item.id
 LEFT JOIN client ON invoice.client_id=client.id
 WHERE invoice.status=1;
 ```
+
+## Learning Resource
+* [SQL Join](https://www.w3schools.com/sql/sql_join.asp)
+* [Join Multiple table](https://www.sqlshack.com/learn-sql-join-multiple-tables/)
