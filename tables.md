@@ -145,6 +145,19 @@ CREATE TABLE "company" (
 	"status"	INTEGER NOT NULL DEFAULT 1,
 	PRIMARY KEY("id" AUTOINCREMENT)
 );
+
+
+CREATE TABLE "message" (
+	"id"	INTEGER NOT NULL UNIQUE,
+	"invoice"	TEXT,
+	"mobile"	TEXT,
+	"sms_text"	TEXT,
+	"create_date"	TEXT,
+	"delivery_report"	TEXT DEFAULT 'pending',
+	"status"	INTEGER NOT NULL DEFAULT 0,
+	PRIMARY KEY("id" AUTOINCREMENT)
+);
+
 ```
 
 
